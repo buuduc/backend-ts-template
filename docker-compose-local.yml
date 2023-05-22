@@ -1,0 +1,11 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: Ev26d5VVHJ83XAWVVca
+      MONGO_INITDB_DATABASE: banker_hub_development
+    ports:
+      - 27017:27017
